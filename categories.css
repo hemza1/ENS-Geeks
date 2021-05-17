@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+@font-face{
+    src: url('Orator Std Medium.ttf');
+    font-family: orator;
+}
+@font-face {
+  font-family: saira;
+  src: url(Saira-VariableFont_wdth\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+.wrapper .multi_color_border{
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, #0077b6 0% , #0077b6 25%, #494949 25%, #494949 50%, #0077b6 50%, #0077b6 75%, #494949 75%, #494949 100%);
+}
+
+.wrapper .top_nav{
+  margin-top: 5px;
+  width: 100%;
+  height: 65px;
+  background: #fff;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .top_nav .left .logo p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #494949;
+  font-family: "Mountains of Christmas", cursive;
+  margin-right: 25px;
+  padding: 0px 40px 0px 0px;
+  border-right: 3px solid #111;
+}
+
+.wrapper .top_nav .left .logo p span{
+  color: #0077b6;
+  font-family: "Mountains of Christmas", cursive;
+}
+
+.wrapper .top_nav .left .search_bar input[type="text"]{
+  border: 1px solid #666666;
+  padding: 5px 10px; 
+  outline: none;
+  transition: all 0.5s linear;
+}
+
+.wrapper .top_nav .left .search_bar input[type="text"]:focus{
+  width: 250px;
+}
+
+.wrapper .top_nav .right ul{
+  display: flex;
+}
+
+.wrapper .top_nav .right ul li{
+  margin: 0 12px;
+}
+
+.wrapper .top_nav .right ul li:last-child{
+  background:  #0077b6;
+  margin-right: 0;
+  border-radius: 2px;
+  letter-spacing: 3px;
+}
+
+.wrapper .top_nav .right ul li:hover:last-child{
+  background: #494949;
+}
+
+.wrapper .top_nav .right ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: #666666;
+}
+
+.wrapper .top_nav .right ul li:last-child a{
+   color: #fff;
+}
+
+.wrapper .bottom_nav {
+  width: 100%;
+  background: #f9f9f9;
+  height: 45px;
+  padding: 0 50px;
+}
+
+.wrapper .bottom_nav ul{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .bottom_nav ul li a{
+  color: #494949;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.wrapper .banner img{
+  width: 100%;
+  height: 400px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+a{
+    color:#0077b6;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    font-size:21px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+
+/* ########################################### */
+/*           Forums.html                       */
+/* ########################################### */
+.container{
+  
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color:White;
+    color:black;
+    margin: 10px 20px 0px 20px;
+    padding: 20px;
+    
+    
+}
+
+.subforum{
+    margin-top:20px;
+    
+}
+#computer_hardware,#Networking,#Software,#Programming,#Web{
+  width: 70%;
+}
+
+.subforum-title{
+    background-color:#aaa3a3;
+    padding: 5px;
+    border-radius: 5px;
+    margin:4px;
+    height: 50px;
+    line-height: 45px;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+    
+    
+}
+
+.subforum-column{
+    padding: 10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#f9f9f9;
+    
+}
+
+.subforum-description *{
+    margin-block: 0;
+    line-height: 30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.subforum-icon i{
+    font-size: 35px;
+    
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .trending {
+    float: right;
+    margin-top: 16px;
+    width: 25%;
+    display: block;
+    
+  }
+  .question1 .infos-description{
+      font-size:16px;
+      color: black;
+      font-family: "Josefin Sans", sans-serif;
+      display:inline-flex;
+  }
+  .icon-merde{
+    font-size: 30px;
+    padding-right: 20px;
+    color: #042a4f;
+    line-height: 10px;
+    
+    
+    
+    
+    
+  }
+  .icon-stats{
+
+    font-size: 20px;
+    padding-right: 20px;
+    color: #042a4f;
+    line-height: 20px;
+    
+  }
+  
+  .infos-description{
+    font-size:16px;
+      color: black;
+      font-family: "Josefin Sans", sans-serif;
+      display:inline-flex;
+  }
+  .link-trending{
+    color: black;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+  }
+  .trending .subforum-title{
+    padding-left: 6px;
+    line-height: 10px;
+  }
+  .container_members .subforum-title{
+    padding-left: 6px;
+    line-height: 40px;
+  }
+  .posts-number{
+    padding-left: 240px;
+    margin-top: -25px;
+    
+    
+    
+  }
+.container_members{
+  margin-top: 40px;
+}
+
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;}
+  .fa-github{
+    background: black ;
+    color: white;
+    
+  }
+  
+  footer{
+    padding: 30px;
+    margin-top: 20px;
+    background-color:#e2ddddd0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+  }
+  footer .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px 0px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 25px;
+    
+    
+   }
+.subforum-info{
+  line-height: 35px;
+}
+h2{
+    color: #042a4f;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: orator;
+    margin: 30px;
+    font-size: 50px;
+}
+h4{
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+p{
+  font-size: 13px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}

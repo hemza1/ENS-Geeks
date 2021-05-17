@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ENS Geeks</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="multi_color_border"></div>
+        <div class="top_nav">
+            <div class="left">
+                <div class="logo"><a href="index.html"><p><span>ENS</span>Geeks</p></a></div>
+              <div class="search_bar">
+                  <input type="text" placeholder="Search">
+              </div>
+          </div> 
+          <div class="right">
+            <ul>
+              
+              <li><a href="login.html">LogIn</a></li>
+              <li><a href="signup.html">SignUp</a></li>
+              <li><a href="#">Post your Article</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom_nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Forums</a></li>
+            <li><a href="posts.html">questions</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="newsletter.html">Newsletters</a></li>
+            <li><a href="aboutUS.html">about Us</a></li>
+          </ul>
+      </div>
+        <h2><div class="navigate">
+            <span><a href="categories.html">ENS Geeks - Forums</a> >> <a href="categories.html#Web">Web development,Websites,SEO</a> >> <a href="categories.html#Web">Web development</a></span>
+        </div></h2>
+      <div class="topic-container">
+        <!--Original thread-->
+        <div class="head">
+            <div class="authors">Author</div>
+            <div class="content">Topic: Web developement (Read 3 Times)</div>
+        </div>
+
+        <div class="body">
+            <div class="authors">
+                <div class="username"><a href="">User</a></div>
+                <div>Member</div>
+                <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                <div>Posts: <u>5</u></div>
+                
+            </div>
+            <div class="content">
+                Is learning JavaScript on 2021 worth or not ?
+                
+                <br><br>
+                Nothing more and nothing less.
+                <br><br>
+                <hr>
+                <br><br>
+                Regards User
+                <br><br>
+                <div class="comment">
+                    <button onclick="showComment()">Comment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--commenting area-->
+    <div class="comment-area hide" id="comment-area">
+        <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+        <input type="submit" value="submit">
+    </div>
+    <br>
+    <br>
+    <h4>Replies</h4>
+    <div class="comments-container">
+        <!--Original thread-->
+        <div class="head">
+            <div class="authors">Author</div>
+            <div class="content">Answers</div>
+        </div>
+
+        <div class="body">
+            <div class="authors">
+                <div class="anotheruser"><a href="">AnotherUser</a></div>
+                <div>Member</div>
+                <img src="https://cdn.pixabay.com/photo/2012/04/26/19/47/penguin-42936_1280.png" alt="">
+                <div>Posts: <u>13</u></div>
+                
+            </div>
+            <div class="content">
+                Yes it is, it has a lot of frameworks used till now in websites
+                
+                <br><br>
+                
+                <br><br>
+                <hr>
+                <br><br>
+                Regards AnotherUser
+                <br><br>
+                <div class="comment">
+                    <button onclick="showReply()">Reply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--commenting area-->
+    <div class="comment-area hide" id="reply-area">
+        <textarea name="comment" id="" placeholder="reply here ... "></textarea>
+        <input type="submit" value="submit">
+    </div>
+    <footer>
+        <span>&copy; &nbsp;Hamza El Yesri | All Rights Reserved </span> <br>
+        <a href="https://www.facebook.com/hamza.elyesri.2345/" class="fa fa-facebook" id="facebook"target="_blank"></a>
+        <a href="https://twitter.com/HYesri" class="fa fa-twitter" id="twitter"target="_blank"></a>
+        <a href="https://github.com/hemza1" class="fa fa-github" id="github" target="_blank"></a>
+        
+    
+    </footer>         
+
+
+
+
+
+
+
+<script src="project.js"></script>
+</body>
